@@ -9,4 +9,4 @@
 | 4 실습 MVP | 완료 · 승인 ② (2026-10-31) | 수치 14/14 일치 · 콘솔 오류 0 · 모바일 가로 스크롤 없음 |
 | 5 학습자 자료 | 완료 | GUIDE.md (실습판이라 매뉴얼 덱 생략) |
 | 6 배포 | 완료 · 승인 ③ public (2026-10-31) | https://github.com/kkn1238/learn-pdm-lite-hgd · https://kkn1238.github.io/learn-pdm-lite-hgd/ (HTTP 200) · 첫 커밋 5814d3b · zip ../learn-pdm-lite-hgd.zip |
-| 7 배우기·공유 | 진행 중 | |
+| 7 배우기·공유 | 진행 중 — 수강·짝 점검 대기 | 설치 한 줄로 스킬 1개 검색 확인(2026-10-31) · 공유 메시지 forge/share_message.md · 수강 기록 forge/self_review.md (빈칸) |
