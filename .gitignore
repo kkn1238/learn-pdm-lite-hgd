@@ -1,0 +1,7 @@
+env_check.txt
+outputs/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>노이즈 vs 추세</title>
+<style>
+:root{--bg:#fbfaf7;--fg:#1f2328;--mute:#6b7280;--grid:#e5e7eb;--a:#6b8fb8;--b:#d9622b}
+@media (prefers-color-scheme:dark){:root{--bg:#16181c;--fg:#e8e6e3;--mute:#9aa0a6;--grid:#2c3036;--a:#8fb0d6;--b:#f0844f}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Malgun Gothic",sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px}h1{font-size:1.4rem;margin:0 0 8px}
+.sum{margin:0 0 16px}svg{width:100%;height:auto;display:block}
+.grid{stroke:var(--grid)}.ax{fill:var(--mute);font-size:12px}.lbl{font-size:13px;font-weight:600}
+.la{fill:none;stroke:var(--a);stroke-width:2.5}.lb{fill:none;stroke:var(--b);stroke-width:2.5}
+.upper{stroke:var(--b);stroke-dasharray:6 5;opacity:.8}.up{fill:var(--b)}
+.pa{fill:var(--a)}.pb{fill:var(--b)}.a{fill:var(--a)}.b{fill:var(--b)}
+.key{display:flex;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--mute);margin:8px 0 0}
+.key i{display:inline-block;width:14px;height:3px;vertical-align:middle;margin-right:6px}
+footer{margin-top:20px;font-size:13px;color:var(--mute)}
+</style></head><body><main>
+<h1>노이즈 vs 추세 — 정비 권고 시점</h1>
+<p class="sum">설비B(차체 용접로봇 감속기)는 <b>온도가 13:00</b>, <b>진동이 15:00</b>부터 추세적으로 올랐다. 설비A 진동은 12:40에 한 번 튄 <b>노이즈</b>다. 추세 시작이 평상 범위(평균 ± 2σ)의 첫 이상 후보(15:40)보다 <b>160분 빠르다</b>.</p>
+<svg viewBox="0 0 640 300" role="img" aria-label="설비A·B 진동 선 그래프"><line x1="44" x2="624" y1="260.0" y2="260.0" class="grid"/><text x="36" y="264.0" class="ax" text-anchor="end">0</text><line x1="44" x2="624" y1="202.5" y2="202.5" class="grid"/><text x="36" y="206.5" class="ax" text-anchor="end">1</text><line x1="44" x2="624" y1="145.0" y2="145.0" class="grid"/><text x="36" y="149.0" class="ax" text-anchor="end">2</text><line x1="44" x2="624" y1="87.5" y2="87.5" class="grid"/><text x="36" y="91.5" class="ax" text-anchor="end">3</text><line x1="44" x2="624" y1="30.0" y2="30.0" class="grid"/><text x="36" y="34.0" class="ax" text-anchor="end">4</text><text x="44.0" y="278" class="ax" text-anchor="middle">08:00</text><text x="116.5" y="278" class="ax" text-anchor="middle">09:00</text><text x="189.0" y="278" class="ax" text-anchor="middle">10:00</text><text x="261.5" y="278" class="ax" text-anchor="middle">11:00</text><text x="334.0" y="278" class="ax" text-anchor="middle">12:00</text><text x="406.5" y="278" class="ax" text-anchor="middle">13:00</text><text x="479.0" y="278" class="ax" text-anchor="middle">14:00</text><text x="551.5" y="278" class="ax" text-anchor="middle">15:00</text><text x="624.0" y="278" class="ax" text-anchor="middle">16:00</text><line x1="44" x2="624" y1="195.8" y2="195.8" class="upper"/><text x="50" y="187.8" class="lbl up">설비B 진동 기준선 상한 1.12</text><path d="M44.0,203.1 L68.2,199.6 L92.3,207.1 L116.5,206.5 L140.7,199.6 L164.8,202.5 L189.0,206.5 L213.2,204.8 L237.3,206.5 L261.5,204.8 L285.7,199.0 L309.8,202.5 L334.0,196.8 L358.2,208.2 L382.3,58.8 L406.5,202.5 L430.7,200.2 L454.8,206.0 L479.0,199.0 L503.2,199.0 L527.3,201.3 L551.5,200.8 L575.7,203.1 L599.8,206.5 L624.0,200.8" class="la"/><path d="M44.0,206.0 L68.2,199.6 L92.3,200.8 L116.5,200.8 L140.7,199.6 L164.8,202.5 L189.0,199.6 L213.2,201.9 L237.3,201.9 L261.5,204.8 L285.7,201.3 L309.8,201.9 L334.0,200.2 L358.2,200.2 L382.3,199.0 L406.5,199.6 L430.7,197.9 L454.8,196.8 L479.0,195.6 L503.2,197.3 L527.3,202.5 L551.5,185.2 L575.7,162.2 L599.8,133.5 L624.0,93.2" class="lb"/><circle cx="382.3" cy="58.8" r="5" class="pa"/><text x="390.3" y="62.8" class="lbl a">설비A 12:40 한 번의 튐 → 노이즈</text><circle cx="551.5" cy="185.2" r="5" class="pb"/><text x="543.5" y="155.2" class="lbl b" text-anchor="end">설비B 진동 추세 시작 15:00</text><text x="36" y="16" class="ax" text-anchor="end">mm/s</text></svg>
+<div class="key"><span><i style="background:var(--a)"></i>설비A 프레스 메인모터 진동</span><span><i style="background:var(--b)"></i>설비B 차체 용접로봇 감속기 진동</span></div>
+<footer>기준선 = 처음 12점(08:00~11:40), 상한 = 평균 + 3σ, 3번 연속 넘으면 추세. 센서 값은 실습용 가상 데이터 · 원본 keerhee/kma-auto-genai-3-1 (data/Day5/Day5_설비센서_50건_가상.csv)</footer>
+</main></body></html>

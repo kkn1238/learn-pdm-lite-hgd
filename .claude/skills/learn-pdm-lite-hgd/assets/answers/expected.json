@@ -1,0 +1,74 @@
+{
+ "values": {
+  "rows": {
+   "value": 50,
+   "decimals": null,
+   "block": 0
+  },
+  "equipment_count": {
+   "value": 2,
+   "decimals": null,
+   "block": 0
+  },
+  "first_time": {
+   "value": "2026-09-15 08:00",
+   "decimals": null,
+   "block": 0
+  },
+  "last_time": {
+   "value": "2026-09-15 16:00",
+   "decimals": null,
+   "block": 0
+  },
+  "trend_count": {
+   "value": 2,
+   "decimals": null,
+   "block": 1
+  },
+  "b_temp_trend_start": {
+   "value": "13:00",
+   "decimals": null,
+   "block": 1
+  },
+  "b_temp_upper": {
+   "value": 57.002,
+   "decimals": 2,
+   "block": 1
+  },
+  "b_vib_trend_start": {
+   "value": "15:00",
+   "decimals": null,
+   "block": 1
+  },
+  "b_vib_upper": {
+   "value": 1.117,
+   "decimals": 2,
+   "block": 1
+  },
+  "a_vib_judgement": {
+   "value": "노이즈",
+   "decimals": null,
+   "block": 1
+  },
+  "a_vib_spike_time": {
+   "value": "12:40",
+   "decimals": null,
+   "block": 1
+  },
+  "a_vib_spike_value": {
+   "value": 3.5,
+   "decimals": 1,
+   "block": 1
+  },
+  "b_first_2sigma": {
+   "value": "15:40",
+   "decimals": null,
+   "block": 1
+  },
+  "lead_minutes": {
+   "value": 160,
+   "decimals": null,
+   "block": 1
+  }
+ }
+}
