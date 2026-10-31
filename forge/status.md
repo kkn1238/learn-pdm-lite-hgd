@@ -8,4 +8,5 @@
 | 3 퀴즈 | 완료 | B1 1문항 · 린트 오류 0 (forge/qa/lint_stage3.txt) |
 | 4 실습 MVP | 완료 · 승인 ② (2026-10-31) | 수치 14/14 일치 · 콘솔 오류 0 · 모바일 가로 스크롤 없음 |
 | 5 학습자 자료 | 완료 | GUIDE.md (실습판이라 매뉴얼 덱 생략) |
-| 6 배포 | 진행 중 · 승인 ③ public (2026-10-31) | |
+| 6 배포 | 완료 · 승인 ③ public (2026-10-31) | https://github.com/kkn1238/learn-pdm-lite-hgd · https://kkn1238.github.io/learn-pdm-lite-hgd/ (HTTP 200) · 첫 커밋 5814d3b · zip ../learn-pdm-lite-hgd.zip |
+| 7 배우기·공유 | 진행 중 | |
